@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ballons Pop</title>
+  <link rel="stylesheet" href="css/master.css">
+</head>
+<body scroll="no">
+  <div class="ballon"></div>
+  <div class="score-block">
+    <p>You popped <span class="score">0</span> Ballons</p>
+  </div>
+  <div class="total-shadow">
+    <div class="total-block">
+      <div class="total-win">
+        <h4>Congratulations!</h4>
+        <img src="images/happy.png" alt="win" width="80%">
+        <h4>You Popped all 100 ballons</h4>
+        <p>You are a champion!</p>
+      </div>
+      <div class="total-lose">
+        <h4>Sorry!</h4>
+        <img src="images/sad.png" alt="lose" width="80%">
+        <h4>You Popped all <span class="total-score">0</span> ballons</h4>
+        <p>Play Again?</p>
+        <button class="btn-yes">Yes</button>
+        <button class="btn-no">No</button>
+      </div>
+
+    </div>
+  </div>
+  <div class="start-game">
+    <h2>Are you ready to start?</h2>
+    <button class="btn-start">Start</button>
+  </div>
+  <audio src="music/bg-music.mp3" class="bg-music" autoplay loop>
+  </audio>
+
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

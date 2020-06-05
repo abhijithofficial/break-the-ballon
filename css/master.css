@@ -1,0 +1,97 @@
+/* =================== MAIN CSS ==================== */
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  padding: 0;
+  margin:0;
+  font-family: Arial;
+
+}
+.ballon{
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 100vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.red-ballon{
+  background-image: url(../images/balloon-red.png);
+}
+.blue-ballon{
+  background-image: url(../images/balloon-blue.png);
+}
+.green-ballon{
+  background-image: url(../images/balloon-green.png);
+}
+.fiolet-ballon{
+  background-image: url(../images/balloon-fiolet.png);
+}
+.yellow-ballon{
+  background-image: url(../images/balloon-yellow.png);
+}
+
+
+.b-red-ballon{
+  background-image: url(../images/bombs/balloon-red.png);
+}
+.b-blue-ballon{
+  background-image: url(../images/bombs/balloon-blue.png);
+}
+.b-green-ballon{
+  background-image: url(../images/bombs/balloon-green.png);
+}
+.b-fiolet-ballon{
+  background-image: url(../images/bombs/balloon-fiolet.png);
+}
+.b-yellow-ballon{
+  background-image: url(../images/bombs/balloon-yellow.png);
+}
+
+.score-block{
+  background-color: #efefef;
+  width: 300px;
+  height:80px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 150px)
+}
+.total-shadow{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  position: relative;
+}
+.total-block{
+  background-color: #fff;
+  padding: 10px 100px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,.8);
+}
+.total-lose{
+  display: none;
+}
+.total-win{
+  display: none;
+}
+.start-game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
